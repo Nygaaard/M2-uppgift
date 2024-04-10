@@ -9,11 +9,6 @@ export class ToDoList implements Todo {
   todos: Todo[];
 
   constructor(todolist: Todo[]) {
-    // this.task = task;
-    // this.completed = completed;
-    // this.priority = priority;
-    // //Ladda från local storage
-    // this.loadFromLocalStorage();
     this.todos = todolist;
   }
 
