@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Att göra-lista</title>
+    <link rel="stylesheet" href="/index.77a9bc14.css">
+    <script src="/index.90c5fab6.js" defer=""></script>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <h3>Formulär</h3>
+        <label for="taskInput">Lägg till något här:</label>
+        <textarea name="taskInput" class="input" id="input"></textarea>
+        <br>
+        <label for="priority">Priorietet</label>
+        <select name="priority" id="priority">
+          <option value="1">Hög</option>
+          <option value="2">Medium</option>
+          <option value="3">Låg</option>
+        </select>
+        <br>
+        <div id="error"></div>
+        <br>
+        <input type="submit" value="Lägg till" class="btn" id="add">
+      </form>
+      <article class="todos">
+        <h2>Saker att göra</h2>
+        <div id="todos"></div>
+      </article>
+    </div>
+  </body>
+</html>
